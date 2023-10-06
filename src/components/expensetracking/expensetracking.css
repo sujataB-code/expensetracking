@@ -1,0 +1,130 @@
+
+.expense-details {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.expense-date-total-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #1167cf;
+    padding-bottom: 5px;
+}
+
+.expense-date{
+    font-size: 18px;
+    font-weight: 600;
+    color: #1167cf;
+}
+
+.edit-expense-buton button{
+    width: 70px;
+    padding: 10px 0px 10px 0px;
+    border: 0;
+    border-radius: 2px;
+    background-color: #1167cf;
+    color: white;
+}
+
+.expense-rupay{
+    font-size: 22px;
+    font-weight: 600;
+    color: #1167cf;
+}
+
+.expense-category-details{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-work-border{
+    border-bottom: 1px solid green;
+}
+
+.category-other-border{
+    border-bottom: 1px solid #1167cf;
+}
+
+.category-name-work{
+    font-size: 20px;
+    font-weight: 600;
+    color: green;
+}
+
+.category-name-other{
+    font-size: 20px;
+    font-weight: 600;
+    color: #1167cf;
+}
+
+.category-rupay-other{
+    font-size: 20px;
+    font-weight: 600;
+    color: #1167cf;
+}
+
+.category-rupay-work{
+    font-size: 20px;
+    font-weight: 600;
+    color: green;
+}
+
+
+
+/* add update expense css */
+
+.add-expense-main{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.expensetype{
+    padding-top: 20px;
+}
+
+.add-expense-buttons{
+    display: flex;
+    width:100%;
+    padding-top: 10px;
+}
+
+
+.add-expense-links{
+    width:50%
+}
+
+.add-expense-links button{
+    width:100%;
+    padding: 10px;
+    border: 0;
+    background-color: #c4d7ee;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.add-expense-links button:hover{
+    background-color: #1167cf;
+    color: white;
+}
+
+.add-expense-margin-top{
+    margin-top: 10px;
+}
+
+.add-expense-categoryselect{
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    padding-left: 10px;
+    border-radius: 3px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.add-expense-textarea{
+    resize: vertical;
+}

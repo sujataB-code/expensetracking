@@ -1,0 +1,112 @@
+
+.category-list-details{
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1167cf;
+}
+
+.category-name{
+    padding-bottom: 3px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1167cf;
+}
+
+.category-list-modalopen{
+    background-color: whitesmoke;
+    height: 40%;
+    width: 60%;
+}
+
+.modal-main{
+     position: absolute;  
+      top: 30%;
+    left: 18%; 
+    background-color: white;
+    width: 60%;
+    height: 60%;
+    color: #1167cf;
+}
+
+.expense-removal-details{
+    padding: 30px;
+}
+
+.this-removed{
+    font-size: 18px;
+}
+
+.all-expense-remove{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.confirm-expense-remove{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.remove-category-button{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.remove-category-link{
+    width: 50%;
+}
+
+.remove-category-link button{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.cancel-button{
+    border-radius: 0px 0px 0px 10px;
+    background-color: #c4d7ee;
+}
+
+.confirm-button{
+    border-radius: 0px 0px 10px 0px;
+    background-color: #1167cf;
+    color: white;
+}
+
+
+.category-add-input{
+    margin: 30px 10px 10px 10px;
+}
+
+.category-add-input input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #1167cf;
+    border-radius: 5px;
+}
+
+.category-add-button{
+    margin: 0px 10px 10px 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.category-add-button button{
+    width: 70px;
+    padding: 10px;
+    background-color: #1167cf;
+    color: white;
+    border: 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}

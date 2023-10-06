@@ -1,0 +1,68 @@
+.layout-main{
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.expense-container {
+    margin: 0% 5% 0% 5%;
+    border: 1px solid lightslategray;
+}
+
+.expense-tracking-container {
+    padding: 10px;
+    display: flex;
+    text-align: end;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #c4d7ee;
+    box-sizing: border-box;
+}
+
+.expence-tracking {
+    font-size: 20px;
+    font-weight: 600;
+    width: 60%
+}
+
+.expence-add-button {
+    display: flex;
+    justify-content: end;
+    width: 40%
+}
+
+.expense-add-button button {
+    width: 70px;
+    background-color: #1167cf;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 0px 10px 0px;
+    box-sizing: border-box;
+}
+
+
+.expense-tracking-buttons{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.expense-tracking-buttons-selected {
+    background-color: #1167cf;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+}
+
+.expense-tracking-buttons-notselected {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    background-color: #c4d7ee;
+}
