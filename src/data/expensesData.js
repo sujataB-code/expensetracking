@@ -6,12 +6,12 @@ export const expensedata=[
             {
                 id:1,
                 name:'Entertainment',
-                rupies:5000
+                rupies:-5000
             },
             {
                 id:2,
                 name:'Transportation',
-                rupies:500
+                rupies:-500
             },
             {
                 id:3,
@@ -27,12 +27,12 @@ export const expensedata=[
             {
                 id:1,
                 name:'Entertainment',
-                rupies:6000
+                rupies:-6000
             },
             {
                 id:2,
                 name:'Transportation',
-                rupies:300
+                rupies:-300
             },
             {
                 id:3,

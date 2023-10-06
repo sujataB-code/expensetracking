@@ -101,14 +101,8 @@
     width:100%;
     padding: 10px;
     border: 0;
-    background-color: #c4d7ee;
     font-size: 18px;
     font-weight: 600;
-}
-
-.add-expense-links button:hover{
-    background-color: #1167cf;
-    color: white;
 }
 
 .add-expense-margin-top{
@@ -127,4 +121,13 @@
 
 .add-expense-textarea{
     resize: vertical;
+}
+
+.selectCashIn{
+    background-color: #1167cf;
+    color: white;
+}
+
+.selectCashOut{
+    background-color: #c4d7ee;
 }

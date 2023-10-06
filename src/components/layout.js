@@ -37,7 +37,7 @@ const Layout = () => {
                             <Route path="/" element={<ExpenseTracking expensename={setName} expense={setExpense} />} />
                             <Route path="/category" element={<Category Categoryname={setName} Category={setExpense} />} />
                             <Route path="/addexpense" element={<AddExpense AddExpense={setName} expense={setExpense} />} />
-                            <Route path="/updateexpense" element={<UpdateExpense UpdateExpense={setName} expense={setExpense} />} />
+                            <Route path="/updateexpense/:id" element={<UpdateExpense UpdateExpense={setName} expense={setExpense} />} />
                         </Routes>
                     </div>
 
