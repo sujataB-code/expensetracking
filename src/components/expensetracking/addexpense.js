@@ -102,7 +102,10 @@ const AddExpense = ({ AddExpense, expense }) => {
                             required
                         />
                     </div>
-                    <button>Submit</button>
+                    <div className='expense-tracking-buttons'>
+                    <Link to="/"><button className='edit-expense-buttons-selected'>Cancel</button></Link>
+                    <Link to="/"><button className='edit-expense-buttons-selected'>Submit</button></Link>
+                    </div>
                 </form>
             </div>
 

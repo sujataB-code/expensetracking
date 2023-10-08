@@ -1,7 +1,7 @@
 export const expensedata=[
     {
         id:1,
-        date:'7/2021',
+        date:'7/07/2021',
         category:[
             {
                 id:1,
@@ -22,7 +22,7 @@ export const expensedata=[
     },
     {
         id:2,
-        date:'8/2021',
+        date:'8/07/2021',
         category:[
             {
                 id:1,
